@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="Author" content="Michael G. Slack">
+    <title>TwentyOne Help</title>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>TwentyOne (BlackJack) - Help</h1>
+    </div>
+    <img style="width: 105px; height: 104px; float: left; padding: 0px 5px 5px 0px;" alt="TwentyOne Image" src="TwentyOne_help.bmp">
+    <p>TwentyOne is a card game in which a player tries to get closer to 21 than the house
+       (or dealer) does.  Typically, twentyone is favorable to the player if skill is used
+       in playing the game (or card counting!).  This version of TwentyOne includes a sub-set
+	   of the BlackJack rules (Splits, Insurance, Double Down).</p>
+	<p>To start a hand, press the 'play' button.  After entering your bet, cards are dealt,
+       two to dealer and two to the player.  The first dealer card is face down when 
+       initially dealt.  If neither have 21 to start, the other buttons become (may
+       become) enabled.</p>
+    <p>To get an additional card, press the hit button.  If you go over 21, you lose.
+       To stand on your cards, press the stay button.  The dealer will then finish out
+       the dealer hand.</p>
+    <p>If both of your cards are the same, you can split your hand.  Note, you must have
+       enough money in your bank to cover the split hand and each hand will get one
+       card (and only one card).  This is different than some of the rules, but leads to
+       an easier game.</p>
+    <p>If you have not taken any hits, you can double your bet (the button is not available
+       if you have taken a hit.  When selected, you must have enough money in your bank
+       to cover the double-down.  If you do, you are given one additional card and then the
+       dealer plays out.  If you go over 21 with the additional card, you lose.</p>
+	<p>If the dealer has an ace showing, you are given the opportunity to buy insurance.
+       Insurance costs 25% of your bet (you must have enough money to cover the amount in
+       your bank) and if the dealer has 21, you will get back 75% of your bet.  If you don't
+       buy insurance, the hand is played through like normal (even if the dealer has 21).</p>
+    <p>If you don't have enough money (at the beginning of the hand) to cover the current
+       minimum bet amount, a prompt will ask you if you wish to reset the game (and give you,
+       the player) the initial bank again (plus whatever is currently in your bank, if 
+       anything).</p>
+    <p>This game is not intended to follow each and every little esoteric rule of TwentyOne that
+       some may know of, but it tries to be close.  This game is not intended for (nor
+       designed for) actual betting or gambling.</p>
+    <div style="font-weight:bold;">In summary, the rules followed by this game are as follows:</div>
+	<ul>
+	  <li>Dealer hits on 16 or less, stays on 17+.
+      <li>Splits will play hitting one card on each one.
+      <li>Double can only be done at the start of a hand and will hit one card.
+      <li>Insurance can be bought when the dealer has an ace showing.
+          (costs 25% of bet (1 dollar bets cost nothing))
+      <li>If player or dealer hit to 5 cards without going over 21, they
+          are the automatic winner.
+      <li>If dealer or player has twentyone to start, they are the winner
+          (unless insurance can be bought or both have 21).
+      <li>Closest to 21 without going over is the winner.
+	  <li>If both dealer and player have same score, it is a push and bet is refunded.
+	</ul>
+    <div style="font-weight:bold;">Game Options:</div>
+    <p>TwentyOne has many, and varied, options.  The options dialog is accessed by selecting
+       the 'options' button in the main window.</p>
+    <ul>
+      <li>Number of Decks: Select one to seven decks to play with.  The number of decks,
+          if changed, takes affect with the next shuffle.  The more decks used, the harder
+		  it is to do card counting.  For most play, one to three decks in the card shoe
+		  should be enough.  <div style="font-weight:bold;">Default: one.</div>
+      <li>Minimum Bet: Minimum amount to bet (in whole amounts only).  Can be from 1 to
+          10000.  <div style="font-weight:bold;">Default: $1.00.</div>
+      <li>Maximum Bet: Maximum amount to bet (in whole amounts only).  Can be from minimum bet
+          to 10000.  <div style="font-weight:bold;">Default: $5.00.</div>
+      <li>Initial Bank: Amount of money player is given at the game start or with each
+          reset (in whole amounts only).  Can be from minimum bet to 100000.
+		  <div style="font-weight:bold;">Default: $100.00.</div>
+	  <li>Bet Max: If checked, sets the maximum (or as much money as player has) in the
+          bet dialog rather than the miniumum bet amount.  This option is more of an convenience
+		  option for those that want to bet the max with each hand without having to set it.
+		  If not checked, the bet dialog is seeded with the minimum bet amount.
+		  <div style="font-weight:bold;">Default: Off</div>
+	  <li>The card back area contains a list of card backs available to the game.  The current
+          card back is selected in the list and displayed to the right.  To select a different
+		  card back image, select the appropriate image name in the drop down.  The image to the
+		  right is updated with the current selection.
+		  <div style="font-weight:bold;">Default: First image in list.</div>
+    </ul>
+	<p>Pressing OK saves (and changes) your game options, pressing cancel keeps your
+       current settings.</p>
+    <p>For more information about TwentyOne and variants, see
+       <a href="https://en.wikipedia.org/wiki/Twenty-One_(banking_game)">TwentyOne Wikipedia</a>.</p>
+    <div style="text-align: center; font-size: smaller;">
+      &copy;2021 Slack &amp; Associates / M. G. Slack
+    </div>
+  </body>
+</html>
